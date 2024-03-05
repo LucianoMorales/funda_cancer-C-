@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet3" targetNamespace="http://tempuri.org/DataSet3.xsd" xmlns:mstns="http://tempuri.org/DataSet3.xsd" xmlns="http://tempuri.org/DataSet3.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet3" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DataSet3" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet3">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtcontrol" msprop:Generator_RowClassName="dtcontrolRow" msprop:Generator_RowEvHandlerName="dtcontrolRowChangeEventHandler" msprop:Generator_RowDeletedName="dtcontrolRowDeleted" msprop:Generator_RowDeletingName="dtcontrolRowDeleting" msprop:Generator_RowEvArgName="dtcontrolRowChangeEvent" msprop:Generator_TablePropName="dtcontrol" msprop:Generator_RowChangedName="dtcontrolRowChanged" msprop:Generator_UserTableName="dtcontrol" msprop:Generator_RowChangingName="dtcontrolRowChanging" msprop:Generator_TableClassName="dtcontrolDataTable" msprop:Generator_TableVarName="tabledtcontrol">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="fecha" msprop:Generator_UserColumnName="fecha" msprop:Generator_ColumnPropNameInTable="fechaColumn" msprop:Generator_ColumnPropNameInRow="fecha" msprop:Generator_ColumnVarNameInTable="columnfecha" type="xs:string" minOccurs="0" />
+              <xs:element name="presion_arterial" msprop:Generator_UserColumnName="presion_arterial" msprop:Generator_ColumnPropNameInTable="presion_arterialColumn" msprop:Generator_ColumnPropNameInRow="presion_arterial" msprop:Generator_ColumnVarNameInTable="columnpresion_arterial" type="xs:string" minOccurs="0" />
+              <xs:element name="talla" msprop:Generator_UserColumnName="talla" msprop:Generator_ColumnPropNameInTable="tallaColumn" msprop:Generator_ColumnPropNameInRow="talla" msprop:Generator_ColumnVarNameInTable="columntalla" type="xs:string" minOccurs="0" />
+              <xs:element name="peso" msprop:Generator_UserColumnName="peso" msprop:Generator_ColumnPropNameInTable="pesoColumn" msprop:Generator_ColumnPropNameInRow="peso" msprop:Generator_ColumnVarNameInTable="columnpeso" type="xs:string" minOccurs="0" />
+              <xs:element name="pulso" msprop:Generator_UserColumnName="pulso" msprop:Generator_ColumnPropNameInTable="pulsoColumn" msprop:Generator_ColumnPropNameInRow="pulso" msprop:Generator_ColumnVarNameInTable="columnpulso" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
